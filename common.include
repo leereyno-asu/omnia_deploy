@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ "$HOSTNAME" != "omnia.agave.rc.asu.edu" ] ; then
+	echo -e "\nThis script is only valid on omnia.agave.rc.asu.edu\n"
+	exit 1
+fi
+
+# Be noisy
+#set -x
